@@ -1,0 +1,64 @@
+.project-heading{
+    width: 100%;
+    text-align: center;
+    font-size: 4rem;
+    align-items: baseline;
+    padding: 6rem 1rem ;
+}
+
+.project-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+    padding-bottom: 5rem;
+
+}
+
+.project-card{
+    border: 1px solid wheat;
+    border-radius: 1.3rem;
+    text-align: center;
+    width: 100%;
+    background: #1a1919;
+    padding: 1.2rem 1rem;
+    transition: ease-in-out all 5ms;
+}
+
+
+.project-card img{
+    width: 100%;
+}
+
+.project-title{
+    color: aliceblue;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.project-detail p{
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: center;
+}
+.pro-btns{
+    display: flex;
+    padding: 1rem 0;
+    justify-content: space-between;
+}
+.pro-btns .btn{
+    padding: 0.5rem 0;
+}
+
+
+
+@media screen and (max-width:740px) {
+    .project-container{
+        max-width: 80%;
+        max-height: 50%;
+        margin: auto;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+}

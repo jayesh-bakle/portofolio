@@ -1,0 +1,86 @@
+.container.contact_container{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 30% 50%;
+    gap: 12%;
+}
+.get{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 2rem 1rem ;
+    margin-left: 0rem;
+    margin-right: 9rem;
+    text-decoration: underline;
+}
+.me{
+    color: bisque;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-left: 0rem;
+    text-decoration:overline;
+    margin-right: 9rem;
+}
+h5{
+    color: aliceblue;
+}
+.contact_options{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-right: 34rem;
+    width:90%;
+    align-items: center;
+    margin-bottom: 5rem;
+
+}
+.contact_option a{
+    font-size: 1.5rem;
+    font-weight: 400;
+    display: inline-block;
+    color: coral;
+}
+
+.contact_option h5{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+a:hover{
+    color: aqua;
+}
+
+.contact_option{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 50%;
+    margin-left:  1.4rem;
+    align-items: center;
+    margin-top: 1.3rem;
+    padding: 1.2rem;
+    text-align: center;
+    border-radius: 1.2rem;
+    border: 1px solid transparent;
+    transition:ease-in;
+    transition-property: all;
+}
+
+.contact_option:hover{
+    background: transparent;
+    border-color: gray;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 1rem;
+    margin: auto;
+    max-width: 1140px;
+
+} 
+
+form input,form textarea{
+    margin-bottom: 2rem;
+    padding: 20px 18px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color:  rgba(105, 70, 70, 0.1);
+    color: azure;
+}
+
